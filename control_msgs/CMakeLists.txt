@@ -49,6 +49,7 @@ set(action_files
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
+  srv/SetScalingFactor.srv
 )
 
 if(BUILD_TESTING)
