@@ -49,6 +49,7 @@ set(action_files
 )
 
 set(srv_files
+  srv/GetScalingFactor.srv
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
   srv/SetScalingFactor.srv
