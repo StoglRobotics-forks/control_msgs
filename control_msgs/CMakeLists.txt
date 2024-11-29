@@ -33,7 +33,7 @@ set(msg_files
   msg/MecanumDriveControllerState.msg
   msg/PidState.msg
   msg/SteeringControllerStatus.msg
-  msg/SpeedScalingFactor.msg
+  # msg/SpeedScalingFactor.msg
 )
 
 set(action_files
