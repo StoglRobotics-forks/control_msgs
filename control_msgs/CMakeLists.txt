@@ -24,6 +24,7 @@ set(msg_files
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
+  msg/IoGripperSensor.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
@@ -32,6 +33,7 @@ set(msg_files
   msg/MecanumDriveControllerState.msg
   msg/PidState.msg
   msg/SteeringControllerStatus.msg
+  msg/SpeedScalingFactor.msg
 )
 
 set(action_files
@@ -46,6 +48,7 @@ set(srv_files
   srv/GetScalingFactor.srv
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
+  srv/SetConfig.srv
   srv/SetScalingFactor.srv
 )
 
