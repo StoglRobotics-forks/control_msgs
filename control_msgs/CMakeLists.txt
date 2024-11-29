@@ -38,7 +38,7 @@ set(msg_files
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
-  msg/SpeedScalingFactor.msg
+  # msg/SpeedScalingFactor.msg
 )
 
 set(action_files
